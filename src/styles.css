@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    margin: 40px 60px;
+}
+
+/*Counter*/
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #212121;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+    -15px -15px 30px rgb(60, 60, 60);
+    transition: background-color 0.3s ease;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+
+.card:hover{
+    background-color: #2d2c2c;
+}
+
+.card h2 {
+    padding-top: 20px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.card p{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.card button {
+    background-color: rgb(85, 99, 64);
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: rgb(100, 108, 91);
+}
+
+/*Random*/
+
+.card1 {
+    width: 300px;
+    height: 400px;
+    background-color: #212121;
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+    -15px -15px 30px rgb(60, 60, 60);
+    transition: background-color 0.3s ease;
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+
+.card1:hover{
+    background-color: #2d2c2c;
+}
+
+.card1 h2 {
+    padding-top: 30px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.card1 p{
+    font-size: 30px;
+    padding: 30px 0px;
+    color: aliceblue;
+}
+
+.card1 button {
+    background-color: rgb(85, 99, 64);
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card1 button:hover{
+    background-color: rgb(100, 108, 91);
+}
+
+
+
+
+
